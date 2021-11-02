@@ -6,6 +6,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -17,8 +18,8 @@
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           1,
@@ -29,22 +30,26 @@
       "/Users/rebecca/Projects/Makers/Week_6_Databases/Bookmark/Bookmark_Manager/lib/bookmark.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
           1,
-          null,
+          1,
+          1,
+          4,
           null,
           null
         ]
       },
-      "/Users/rebecca/Projects/Makers/Week_6_Databases/Bookmark/Bookmark_Manager/spec/features/bookmark_spec.rb": {
+      "/Users/rebecca/Projects/Makers/Week_6_Databases/Bookmark/Bookmark_Manager/spec/bookmark_spec.rb": {
         "lines": [
           null,
           1,
           1,
           1,
           1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -61,6 +66,6 @@
         ]
       }
     },
-    "timestamp": 1635781786
+    "timestamp": 1635869567
   }
 }

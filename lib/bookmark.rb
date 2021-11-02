@@ -1,8 +1,9 @@
-class Bookmark
-@bookmarks=['Bookmark 1', 'Bookmark 2' ,'Bookmark 3']
-  
-  def self.all
-      @bookmarks
-  end
+require 'pg'
 
+class Bookmark
+  def self.all
+    connection = PG.connect(dbname: 'bookmark_manager')
+    result = connection.exec("SELECT * FROM bookmarks")
+    result.map { | bookmark | bookmark['url'] }
+  end
 end
